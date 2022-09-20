@@ -16,6 +16,8 @@
 		493FF1EE28D7F3DD003C30F3 /* FlixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493FF1ED28D7F3DD003C30F3 /* FlixTests.swift */; };
 		493FF1F828D7F3DD003C30F3 /* FlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493FF1F728D7F3DD003C30F3 /* FlixUITests.swift */; };
 		493FF1FA28D7F3DD003C30F3 /* FlixUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493FF1F928D7F3DD003C30F3 /* FlixUITestsLaunchTests.swift */; };
+		493FF20728D7F4C7003C30F3 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493FF20628D7F4C7003C30F3 /* MoviesViewController.swift */; };
+		493FF20928D80370003C30F3 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493FF20828D80370003C30F3 /* MovieCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		493FF1F328D7F3DD003C30F3 /* FlixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		493FF1F728D7F3DD003C30F3 /* FlixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixUITests.swift; sourceTree = "<group>"; };
 		493FF1F928D7F3DD003C30F3 /* FlixUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		493FF20628D7F4C7003C30F3 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		493FF20828D80370003C30F3 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +107,11 @@
 				493FF1D828D7F3DD003C30F3 /* SceneDelegate.swift */,
 				493FF1DA28D7F3DD003C30F3 /* ViewController.swift */,
 				493FF1DC28D7F3DD003C30F3 /* Main.storyboard */,
+				493FF20828D80370003C30F3 /* MovieCell.swift */,
 				493FF1DF28D7F3DD003C30F3 /* Assets.xcassets */,
 				493FF1E128D7F3DD003C30F3 /* LaunchScreen.storyboard */,
 				493FF1E428D7F3DD003C30F3 /* Info.plist */,
+				493FF20628D7F4C7003C30F3 /* MoviesViewController.swift */,
 			);
 			path = Flix;
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 				493FF1DB28D7F3DD003C30F3 /* ViewController.swift in Sources */,
 				493FF1D728D7F3DD003C30F3 /* AppDelegate.swift in Sources */,
 				493FF1D928D7F3DD003C30F3 /* SceneDelegate.swift in Sources */,
+				493FF20928D80370003C30F3 /* MovieCell.swift in Sources */,
+				493FF20728D7F4C7003C30F3 /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
