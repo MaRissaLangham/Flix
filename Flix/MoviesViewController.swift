@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import AlamofireImage
+
 
 class MoviesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate //Step 1 Add
 {
@@ -46,11 +48,6 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
                 
                     self.tableView.reloadData()
                     print(dataDictionary)
-                    
-                    // TODO: Get the array of movies
-                    // TODO: Store the movies in a property to use elsewhere
-                    // TODO: Reload your table view data
-
                 }
         }
         task.resume()
@@ -76,8 +73,9 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         
         let baseUrl = "http://image.tmdb.org/t/p/w185"
         let posterPath = movie ["poster_path"] as! String
-        let posterUrl = URL(string: baseUrl + posterUrl)
+        let posterUrl = URL(string: baseUrl + posterPath)
         
+        cell.posterView.af.setImage (withURL: posterUrl!)
         
         
         return cell
